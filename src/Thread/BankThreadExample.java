@@ -50,7 +50,7 @@ public class BankThreadExample {
     public static void main(String[] args) {
         ATM atm = new ATM();
         User user1 = new User(atm, "withdraw", 2000);
-        User user2 = new User(atm, "withdraw", 8000);
+        User user2 = new User(atm, "deposite", 8000);
        // User user3 = new User(atm, "withdraw", 2000);
 
         user1.start();
